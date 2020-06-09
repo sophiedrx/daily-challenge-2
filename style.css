@@ -2,9 +2,10 @@
 
 body{
   background: #fff;
-  color: #000; 
+  color: #9FD6BF; 
   font-size: 16px;
   font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Oswald', sans-serif;
   margin:0;
 }
 
@@ -44,10 +45,7 @@ nav ul {
   margin-left: 50px;
 }
 
-#baseline a:hover {
-  position: relative;
-  top:1px;
-}
+
 
 
 nav{
@@ -80,23 +78,19 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: rgb(225, 0, 152);
+  color: rgb(225, 255, 255);
 }
 
-#logo{
-  color: rgb(225, 0, 152);
-  font-size: 35px;
-  font-family: 'Pacifico', cursive;
-}
+
 
 /* Mis en forme de la baseline */
 #baseline{
-  background-color: #41A3C0;
+  background-color: #9FD6BF;
   text-align: center;
   background-size: cover;
   padding: 150px;
   color: white;
-  text-shadow: 1px 1px 5px black;
+  text-shadow: 1px 1px 1px white;
 }
 
 #baseline h1 {
@@ -109,4 +103,9 @@ a:hover {
   font-size: 30px;
   font-weight: lighter;
   text-decoration: none;
+}
+
+#baseline a:hover {
+  position: relative;
+  top:1px;
 }
